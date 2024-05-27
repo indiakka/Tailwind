@@ -10,30 +10,30 @@
 </head>
 
 <body>
-    <main class="">
-        <nav class="">
-            <div class="">
-                <img class="" src="./logo-black.png" alt="logo">
-                <img class="" src="./logo-white.png" alt="logo-blanco">
-                <div class="">
+    <main class="dark:bg-negro">
+        <nav class="h-20 flex justify-between max-w-7xl mx-9 items-center">
+            <div class="flex items-center gap-6">
+                <img class="w-12 dark:hidden inline-block" src="./logo-black.png" alt="logo">
+                <img class="hidden w-12 dark:inline-block" src="./logo-white.png" alt="logo-blanco">
+                <div class="flex gap-6 text-morado dark:text-white">
                     <p>Proyectos</p>
                     <p>Servicios</p>
                     <p>Blog</p>
                     <p>Contacto</p>
                 </div>
             </div>
-            <label for="check" class="">
-                <div class=""></div>
+            <label for="check" class="bg-grisClaro px-1 py-1 w-[62px] rounded-full">
+                <div class="w-6 h-6 rounded-full bg-white dark:bg-fuchsia-50"></div>
                 <input onchange="toogleTheme()" type="checkbox" id="check" hidden>
             </label>
         </nav>
-        <section class="">
+        <section class="min-h- [100vh] flex items-center justify-center text-center text-black dark:text-white">
             <div>
-                <img class="" src="./person.png" alt="Ziortza">
-                <h3 class="">Hola soy Ziortza 👋🏻</h3>
-                <h1 class="">Soy programadora web</h1>
-                <p class="">Pertenezco al programa de Femcoders</p>
-                <button class="">Contáctame</button>
+                <img class="w-[200px] h-[200px] mx-auto" src="./person.png" alt="Ziortza">
+                <h3 class="text-[28px] font-bold mt-10 dark:text-grisClaro">Hola soy Ziortza 👋🏻</h3>
+                <h1 class="text-5xl font-bold my-8 leading-[120%]">Soy programadora web</h1>
+                <p class="text-[28px] font-exralight">Pertenezco al programa de Femcoders</p>
+                <button class="w-[240px] h-[60px] my-4 p-2 rounded-full text-black bg-morado">Contáctame</button>
             </div>
         </section>
         </nav>
