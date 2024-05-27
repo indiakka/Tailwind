@@ -10,9 +10,9 @@ Crear modo oscuro con Tailwind, un archivo sin clases para realizar como ejercic
 - [@indiakka](https://www.github.com/indiakka)
 
 
-## Deployment
+## Creation
 
-To deploy this project run
+To create this project run
 
 ```bash
 npm create vite Tailwind
@@ -21,6 +21,23 @@ npm create vite Tailwind
 √ Select a variant: » JavaScript
 
 npm i vite
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init
+
+npm run dev
+
+
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+npm i
 
 npm install -D tailwindcss postcss autoprefixer
 
